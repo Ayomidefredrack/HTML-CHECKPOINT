@@ -1,0 +1,21 @@
+body {
+    background-color: brown;
+}
+header {
+    background-color: blue;
+    font: italic;
+    font-size: larger;
+}
+#home {
+    font-size: xx-large;
+}
+
+img {
+    border-radius: 30px;
+}
+.work {
+    background-color: blue;
+}
+#work-profile {
+    font-size: xx-large;
+}

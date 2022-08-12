@@ -1,74 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html.document</title>
-    <style>
-        img{
-            width: 300px;
-        }
-    </style>
-</head>
-<header id="takeMeUp">
-    <nav>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>RESUME</li>
-            <li>contact</li>
-        </ul>
-    </nav>
-</header>
- <section id="ABOUT">
-    <h3>ME</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veniam quibusdam ipsa vitae adipisci quisquam in, quod dignissimos laboriosam sunt minus recusandae dolorum maxime hic reprehenderit iste qui. Dolorum ut optio sapiente atque doloribus esse laborum perferendis, pariatur quam ab iusto, doloremque harum magni nihil, eaque dolorem possimus perspiciatis eligendi at? Quas unde dolorem recusandae sed quibusdam in quae amet laudantium ducimus? Cumque est, sapiente expedita soluta alias tenetur consequatur ea ducimus. Possimus odio delectus excepturi pariatur ullam labore, voluptate temporibus necessitatibus voluptates veniam dignissimos quaerat? Recusandae aperiam animi tempore ex vero pariatur blanditiis eius quibusdam? Laudantium inventore recusandae doloribus.</p>
-     <img src="images/pexels-daniel-torobekov-5901259.jpg" alt="My photo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <link rel="stylesheet" href="css/style.css">
+        <title>html.document</title>
+        <style>
+            img{
+                width: 300px;
+            }
+        </style>
+    </head>
 
-     </section>
-     <section>
-        <h3>WORK PROFILE</h3>
-        <ul>
-            <li>SURNAME</li>
-            <li>FIRSTNAME</li>
-            <li>DATE OF BIRTH</li>
-            <li>POSITION LEVEL</li>
-            <li>EMAIL ADDRESS</li>
-        </ul>
-     </section>
+    <body>
+        <header class="header" id="takeMeUp">
+            <nav>
+                <ul>
+                    <li id="home">HOME</li>
+                    <li>ABOUT</li>
+                    <li>WORK</li>
+                    <li>RESUME</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="ABOUT">
+            <h3>ME</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veniam quibusdam ipsa vitae adipisci quisquam in, quod dignissimos laboriosam sunt minus recusandae dolorum maxime hic reprehenderit iste qui. Dolorum ut optio sapiente atque doloribus esse laborum perferendis, pariatur quam ab iusto, doloremque harum magni nihil, eaque dolorem possimus perspiciatis eligendi at? Quas unde dolorem recusandae sed quibusdam in quae amet laudantium ducimus? Cumque est, sapiente expedita soluta alias tenetur consequatur ea ducimus. Possimus odio delectus excepturi pariatur ullam labore, voluptate temporibus necessitatibus voluptates veniam dignissimos quaerat? Recusandae aperiam animi tempore ex vero pariatur blanditiis eius quibusdam? Laudantium inventore recusandae doloribus.</p>
+            <img src="images/pexels-daniel-torobekov-5901259.jpg" alt="My photo">
 
-     <form>
-        <label for="SURNAME"></label>
-        <input type="name">
-        <select>
-            <option value="GIWA">click here</option>
-            <option value="GIWA">GIWA</option>
-        </select>
-        <br>
-        <label for="FIRSTNAME"></label>
-        <input type="name">
-        <select>
-            <option value="ABDULATEEF">click here</option>
-            <option value="ABDULATEEF">ABDULATEEF</option>
-            <select>
-                <br>
-                <label for="DATE OF BIRTH"></label>
-                <input type="date">
+            </section>
+            <section class="work">
+                <h3 id="work-profile">WORK PROFILE</h3>
+                <ul>
+                    <li>SURNAME</li>
+                    <li>FIRSTNAME</li>
+                    <li>DATE OF BIRTH</li>
+                    <li>POSITION LEVEL</li>
+                    <li>EMAIL ADDRESS</li>
+                </ul>
+            </section>
+
+            <form>
+                <label for="SURNAME"></label>
+                <input type="name">
                 <select>
-                    <br>
-                    <label for="POSITION LEVEL"></label>
-                    <input type="level">
+                    <option value="GIWA">click here</option>
+                    <option value="GIWA">GIWA</option>
+                </select>
+                <br>
+                <label for="FIRSTNAME"></label>
+                <input type="name">
+                <select>
+                    <option value="ABDULATEEF">click here</option>
+                    <option value="ABDULATEEF">ABDULATEEF</option>
                     <select>
-                        <option value="">level 1</option>
-                        <option value="">level 2</option>
+                        <br>
+                        <label for="DATE OF BIRTH"></label>
+                        <input type="date">
+                        <select>
+                            <br>
+                            <label for="POSITION LEVEL"></label>
+                            <input type="level">
+                            <select>
+                                <option value="">level 1</option>
+                                <link rel="stylesheet" href="style.css">
+                                <option value="">level 2</option>
+                            </select>
+                        </select>
+                    </select>
+                    <br>
+                    <label for="EMAIL ADDRESS"></label>
+                    <input type="email">
+                    <select>
+                        <option value="ayomidefredrack@gmail.com"></option>
+                        <option value="ayomidefredrack1@gmail.com"></option>
                     </select>
                 </select>
-            </select>
-        </select>
-     </form>
-     <div><a href="#takeMeUp"> TAKE ME UP</a></div>
-
-</body>
+            </form>
+            <div><a href="#takeMeUp"> TAKE ME UP</a></div>
+        </section>
+    </body>
 </html>
